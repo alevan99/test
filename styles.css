@@ -2,9 +2,22 @@
 	margin: 0px;
 }
 
+@font-face {
+	font-family: american;
+	src: url(fonts/American\ Captain.ttf);
+}
+
+@font-face {
+	font-family: sfpro;
+	src: url(fonts/SFPRODISPLAYREGULAR.OTF);
+}
+
 .header {
 	padding-top: 2%;
-	
+	background-image: url(imagines/Background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
 }
 
 .container__head {
@@ -14,8 +27,9 @@
 }
 
 .container {
-	width: 75%;
-	margin: auto;
+	/* width: 75%; */
+	margin-left: 100px;
+	margin-right: 100px;
 }
 
 a {
@@ -46,7 +60,8 @@ li {
 }
 
 .menu__link {
-	font-size: 20px;
+	font-size: 24px;
+	font-family: sfpro;
 }
 
 .menu__item:last-child {
@@ -54,19 +69,210 @@ li {
 }
 
 .logo {
-	font-size: 30px;
+	font-size: 56px;
+	font-weight: 400;
+	font-family: american;
 }
 
 .about__link {
-	font-size: 30px;
-	border: 3px solid white;
-	border-radius: 10px;	
+	font-size: 24px;
+	border: 2px solid white;
+	border-radius: 10px;
+	padding: 8px 32px 8px 32px;
+	font-family: sfpro;
 }
 
-body {
-	background-color: black;
-	background-image: url(imagines/Background.png);
-	background-size: cover;
-	
+.right__list {
+	text-align: right;
+	/* margin-top: 0px; */
+}
 
+.right {
+	margin-top: 10%;
+}
+
+.the__most {
+	font-size: 32px;
+	font-weight: 600;
+	font-family: sfpro;
+}
+
+.more_economy {
+	font-size: 130px;
+	font-weight: 400;
+	font-family: american;
+}
+
+.discover {
+	font-size: 24px;
+	font-weight: 600;
+	border: 2px solid white;
+	border-radius: 8px;
+	padding: 8px 28px 8px 28px;
+	font-family: sfpro;
+	}
+
+.right__list:last-child {
+	margin-top: 30px;
+}
+
+.vector {
+	margin-left: 5px;
+	width: 14px;
+}
+
+.about__us {
+	background: #161616;
+	height: 727px;
+}
+
+.aboutus {
+	padding-top: 60px;
+	text-align: center;
+}
+
+.aboutus__tex {
+	font-size: 130px;
+	font-weight: 400;
+	font-family: american;
+}
+
+.left__text {
+	text-align: left;
+	margin-top: 95px;
+}
+
+.content__text {
+	font-size: 20px;
+	font-family: sfpro;
+	font-weight: 400;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.car1 {
+	width: 600px;
+}
+
+.benefits {
+	height: 1026px;
+	background-color: #1A191A;
+}
+
+.head__text {
+	text-align: center;
+	display: block;
+	padding-top: 90px;
+}
+
+.head__text1 {
+	font-size: 110px;
+	font-weight: 400;
+	font-family: american;
+}
+
+.head__text2 {
+	font-size: 24px;
+	font-weight: 400;
+	font-family: sfpro;
+}
+
+.offers__list {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 160px;	
+}
+
+.offers__item1 {
+	background: rgba(0, 221, 168, 0.5);
+	width: 400px;
+	height: 430px;
+	border-radius: 16px;
+}
+
+.offers__item2 {
+	background: rgba(207, 41, 41, 0.6);
+	width: 400px;
+	height: 430px;
+	border-radius: 16px;
+}
+
+.offers__item3 {
+	background: rgba(0, 88, 221, 0.6);
+	width: 400px;
+	height: 430px;
+	border-radius: 16px;
+}
+
+.offers__feature {
+	text-align: center;
+}
+
+.offers__feature-inside {
+	padding-top: 36px;
+}
+
+.offers__feature-inside1 {
+	padding-top: 20px;
+}
+
+.feature__text1 {
+	font-size: 32px;
+	font-family: sfpro;
+	font-weight: 700;
+}
+
+.feature__text11 {
+	font-size: 24px;
+	font-family: sfpro;
+	font-weight: 500;
+	
+}
+
+.find__store {
+	font-size: 24px;
+	font-family: sfpro;
+	font-weight: 500;
+	text-decoration: underline;
+}
+
+.offers__cover {
+	display: flex;
+	justify-content: center;
+	margin-top: -77px;
+}
+
+.carss {
+	background: #161616;
+	height: 957px;
+}
+
+.head__text33 {
+	font-size: 110px;
+	font-weight: 400;
+	font-family: american;
+	margin-left: 100px;
+}
+
+.head__text333 {
+	font-size: 24px;
+	font-weight: 400;
+	font-family: sfpro;
+	margin-left: 100px;
+	margin-top: 40px;
+}
+
+.cars__list {
+	display: flex;
+	align-items: center;
+	margin-left: -180px;
+	overflow: hidden;
+	margin-top: 60px;
+}
+
+.car__photo {
+	width: 485px;
+	height: 230px;
 }
