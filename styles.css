@@ -267,12 +267,64 @@ li {
 .cars__list {
 	display: flex;
 	align-items: center;
-	margin-left: -180px;
+	justify-content: center;
 	overflow: hidden;
 	margin-top: 60px;
 }
 
 .car__photo {
-	width: 485px;
-	height: 230px;
+	width: 570px;
+	height: 270px;
+}
+
+.cars__list1 {
+	display: flex;
+	flex-direction: row;
+	overflow: hidden;
+	align-items: center;
+	justify-content: center;
+	margin-top: 0px;
+}
+
+.car__photo1 {
+	width: 570px;
+	height: 270px;
+}
+
+.be__amazed {
+	background: #1A191A;
+	height: 1150px;
+	background-size: cover;
+}
+
+.be__amazed__list {
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.be__amazed__text1 {
+	font-size: 130px;
+	font-weight: 400;
+	font-family: american;
+}
+
+.be__amazed__text2 {
+	font-size: 32px;
+	font-weight: 400;
+	font-family: sfpro;
+}
+
+.be__amazed__center {
+	margin-top: 50px;
+	display: flex;
+	align-items: center;
+}
+
+.be__amazed__photo {
+	width: 100%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
