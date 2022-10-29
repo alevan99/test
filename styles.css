@@ -328,3 +328,86 @@ li {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.contactus {
+	background-color: #161616;
+	height: 541px;
+}
+
+.contactus__text1 {
+	font-size: 120px;
+	font-weight: 400;
+	font-family: american;
+}
+
+.contactus__text2 {
+	font-size: 30px;
+	font-weight: 400;
+	font-family: sfpro;
+}
+
+.contactus {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.contactus__list {
+	padding-top: 171px;
+}
+
+.contactus__main {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.form {
+	width: 100px;
+}
+
+.footer__container {
+	background-color: black;
+	height: 470px;
+}
+
+.footer__main {
+	padding-left: 100px;
+	padding-right: 100px;
+}
+
+.footer__header {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-around;
+	padding-top: 60px;
+}
+
+.footer__header__text {
+	font-size: 100px;
+	font-weight: 400;
+	font-family: american;
+}
+
+.footer__text__head {
+	font-size: 35px;
+	font-weight: 500;
+	font-family: sfpro;
+}
+
+.footer__text {
+	font-size: 17px;
+	font-weight: 400;	
+	font-family: sfpro;
+	color: #BDBDBD;
+}
+
+.photo__social {
+	display: flex;
+}
+.social__media {
+	padding-left: 20px;
+}
+
+.footer__item__text {
+	padding-top: 20px;
+}
